@@ -8,7 +8,7 @@ php () {
         --rm \
         --volume $PWD:/www:rw \
         --workdir /www \
-        d-env php "$@"
+        denv php "$@"
 }
 # php composer
 composer () {
@@ -19,8 +19,8 @@ composer () {
         --interactive \
         --rm \
         --user www-data:www-data \
-        --volume ~/dnmp/data/composer:/tmp/composer \
+        --volume ～/logs/composer:/tmp/composer \
         --volume $(pwd):/app \
         --workdir /app \
-        d-env composer "$@"
+        denv composer "$@"
 }
