@@ -3,10 +3,10 @@ set -e
 root=$(pwd)
 port=80
 ran=$RANDOM
-while getopts ":v:p:c" opt
+while getopts ":d:p:c" opt
 do
     case $opt in
-        v)
+        d)
         path=$OPTARG;;
         p)
         port=$OPTARG;;
