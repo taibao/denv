@@ -1,0 +1,93 @@
+version: "3"
+services:
+
+  nginx:
+    build:
+      context: ./services/nginx
+      args:
+        NGINX_VERSION: 1.15.7-alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "5053:5053"
+      - "5054:5054"
+      - "5055:5055"
+      - "5056:5056"
+      - "5057:5057"
+      - "5058:5058"
+      - "5059:5059"
+      - "5060:5060"
+      - "5061:5061"
+      - "5062:5062"
+      - "5063:5063"
+      - "5064:5064"
+      - "5065:5065"
+      - "5066:5066"
+      - "5067:5067"
+      - "5068:5068"
+      - "5069:5069"
+      - "5070:5070"
+      - "5071:5071"
+      - "5072:5072"
+      - "5073:5073"
+      - "5074:5074"
+      - "5075:5075"
+      - "5076:5076"
+      - "5077:5077"
+      - "5078:5078"
+      - "5079:5079"
+      - "5080:5080"
+      - "5081:5081"
+      - "5082:5082"
+      - "5083:5083"
+      - "5084:5084"
+      - "5085:5085"
+      - "5086:5086"
+      - "5087:5087"
+      - "5088:5088"
+      - "5089:5089"
+      - "5090:5090"
+      - "5091:5091"
+      - "5092:5092"
+
+    volumes:
+      - ./www/:/www/:rw
+      - ./data:/data/:rw
+      - ./services/nginx/conf.d/:/etc/nginx/conf.d/:rw
+      - ./services/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./services/nginx/fastcgi-php.conf:/etc/nginx/fastcgi-php.conf:ro
+      - ./services/nginx/fastcgi_params:/etc/nginx/fastcgi_params:ro
+      - ./logs/nginx/:/var/log/nginx/:rw
+    environment:
+      TZ: "Asia/Shanghai"
+    restart: always
+    networks:
+      - local
+
+  php:
+    build:
+      context: ./services/php
+      args:
+        PHP_VERSION: php:${PHP_VERSION}-fpm-alpine
+        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
+        PHP_EXTENSIONS: ${PHP_EXTENSIONS}
+        TZ: "Asia/Shanghai"
+    container_name: php
+    expose:
+      - 9501
+    extra_hosts:
+      - "www.site1.com:172.17.0.1"
+    volumes:
+      - ./www:/www/:rw
+      - ./data:/data/:rw
+      - ./services/php/php.ini:/usr/local/etc/php/php.ini:ro
+      - ./services/php/php-fpm.conf:/usr/local/etc/php-fpm.d/www.conf:rw
+      - ./logs/php:/var/log/php
+      - ./logs/composer/:/tmp/composer/
+    restart: always
+    cap_add:
+      - SYS_PTRACE
+    networks:
+      - local
+networks:
+  local:

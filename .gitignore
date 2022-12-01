@@ -3,3 +3,6 @@
 nohup.out
 www/*
 logs/*
+services/mysql
+services/redis
+ml-25m
