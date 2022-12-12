@@ -1,6 +1,6 @@
 ARG PHP_VERSION
 FROM ${PHP_VERSION}
-MAINTAINER lee <admin@lees.work>
+MAINTAINER vitas <2510776295@qq.com>
 ARG TZ
 ARG PHP_EXTENSIONS
 RUN sed -i "s/dl-cdn.alpinelinux.org/mirrors.cloud.tencent.com/g" /etc/apk/repositories
