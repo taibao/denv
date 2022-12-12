@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/ew/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php:7.3.11-fpm-alpine">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hEmvoyN72DV3jbAPJWWYofduq0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitmap/BitMapCache" />
+      <recent name="$PROJECT_DIR$/bitmap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="asyc_tcp.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/swoole_project/asyc_tcp.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="client.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost/02/udp/client.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/1.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="event.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/event.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="php:7.3.11-fpm-alpine" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="server.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" temporary="true" path="$PROJECT_DIR$/02/process/server.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="php:7.3.11-fpm-alpine" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.client.php" />
+      <item itemvalue="JavaScript Debug.asyc_tcp.php" />
+      <item itemvalue="PHP Script.1.php" />
+      <item itemvalue="PHP Script.event.php" />
+      <item itemvalue="PHP Script.server.php" />
+      <item itemvalue="PHP Script.index.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.server.php" />
+        <item itemvalue="PHP Script.1.php" />
+        <item itemvalue="PHP Script.event.php" />
+        <item itemvalue="JavaScript Debug.asyc_tcp.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="" />
+      <created>1599584858417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599584858417</updated>
+      <workItem from="1599584859626" duration="2312000" />
+      <workItem from="1602947405400" duration="317000" />
+      <workItem from="1603095861793" duration="12000" />
+      <workItem from="1603101587158" duration="704000" />
+      <workItem from="1603169866615" duration="111000" />
+      <workItem from="1603280360345" duration="1074000" />
+      <workItem from="1603329650449" duration="9000" />
+      <workItem from="1607657475879" duration="973000" />
+      <workItem from="1607852279947" duration="1320000" />
+      <workItem from="1607915966491" duration="488000" />
+      <workItem from="1607998215412" duration="1984000" />
+      <workItem from="1608037097101" duration="1027000" />
+      <workItem from="1608058865309" duration="12921000" />
+      <workItem from="1608368194794" duration="8133000" />
+      <workItem from="1609301833108" duration="451000" />
+      <workItem from="1610941970950" duration="3799000" />
+      <workItem from="1611037044572" duration="3000" />
+      <workItem from="1611242100954" duration="1467000" />
+      <workItem from="1611288045427" duration="427000" />
+      <workItem from="1611289616467" duration="3000" />
+      <workItem from="1611289643482" duration="2097000" />
+      <workItem from="1618204047876" duration="1976000" />
+      <workItem from="1618818375784" duration="3017000" />
+      <workItem from="1618883649131" duration="1845000" />
+      <workItem from="1618912356934" duration="456000" />
+      <workItem from="1619784176781" duration="1236000" />
+      <workItem from="1620265414912" duration="28000" />
+      <workItem from="1620808643062" duration="533000" />
+      <workItem from="1625235591888" duration="2539000" />
+      <workItem from="1625573456929" duration="399000" />
+      <workItem from="1626008931177" duration="1244000" />
+      <workItem from="1626683176778" duration="2535000" />
+      <workItem from="1626961344364" duration="96000" />
+      <workItem from="1627004958480" duration="1130000" />
+      <workItem from="1627615932244" duration="6717000" />
+      <workItem from="1627716734281" duration="1211000" />
+      <workItem from="1628001665000" duration="1238000" />
+      <workItem from="1628047315197" duration="9683000" />
+      <workItem from="1628071567699" duration="598000" />
+      <workItem from="1628155717599" duration="9938000" />
+      <workItem from="1628222530670" duration="5590000" />
+      <workItem from="1628344562445" duration="78000" />
+      <workItem from="1629684100418" duration="2249000" />
+      <workItem from="1629691156636" duration="1007000" />
+      <workItem from="1634626906561" duration="2546000" />
+      <workItem from="1634871115946" duration="1691000" />
+      <workItem from="1634914808503" duration="619000" />
+      <workItem from="1634920420399" duration="2125000" />
+      <workItem from="1636524935360" duration="1638000" />
+      <workItem from="1636698394900" duration="5754000" />
+      <workItem from="1637570450702" duration="6225000" />
+      <workItem from="1637580231416" duration="374000" />
+      <workItem from="1637580621309" duration="1630000" />
+      <workItem from="1637631574727" duration="3923000" />
+      <workItem from="1638339915099" duration="2022000" />
+      <workItem from="1639116562796" duration="6366000" />
+      <workItem from="1639369607031" duration="15000" />
+      <workItem from="1640230964457" duration="4530000" />
+      <workItem from="1640495870723" duration="590000" />
+      <workItem from="1641214113530" duration="406000" />
+      <workItem from="1641816419101" duration="2137000" />
+      <workItem from="1642667020870" duration="427000" />
+      <workItem from="1646183172070" duration="4326000" />
+      <workItem from="1648794899022" duration="611000" />
+      <workItem from="1655373494274" duration="2946000" />
+      <workItem from="1655479789635" duration="5200000" />
+      <workItem from="1656388615706" duration="1000000" />
+      <workItem from="1656904925077" duration="5448000" />
+      <workItem from="1658818000840" duration="2046000" />
+      <workItem from="1658833793843" duration="2782000" />
+      <workItem from="1659061396555" duration="378000" />
+      <workItem from="1659666544738" duration="263000" />
+      <workItem from="1661137847699" duration="638000" />
+      <workItem from="1661943717474" duration="436000" />
+      <workItem from="1666000137354" duration="2457000" />
+      <workItem from="1666160306030" duration="646000" />
+      <workItem from="1667963721987" duration="2321000" />
+      <workItem from="1668676039453" duration="1855000" />
+      <workItem from="1669083421005" duration="958000" />
+      <workItem from="1669280424475" duration="611000" />
+      <workItem from="1669358597993" duration="4860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2522" y="259" key="NewPhpFileDialog" timestamp="1667963742954">
+      <screen x="1440" y="-375" width="2560" height="1440" />
+    </state>
+    <state x="2522" y="259" key="NewPhpFileDialog/0.25.1440.875/1440.-375.2560.1440@1440.-375.2560.1440" timestamp="1667963742954" />
+    <state width="625" height="500" key="SwitcherDM" timestamp="1669359638388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="625" height="500" key="SwitcherDM/0.0.1440.900/1440.-350.2560.1415@0.0.1440.900" timestamp="1669359638388" />
+    <state x="445" y="243" width="789" height="564" key="find.popup" timestamp="1670837212863">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="445" y="243" width="789" height="564" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1670837212863" />
+    <state x="448" y="353" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1669359865294">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="448" y="353" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900/1440.-350.2560.1415@0.0.1440.900" timestamp="1669359865294" />
+  </component>
+</project>
