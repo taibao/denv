@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../services/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../services/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../services/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../services/php/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/encrypt.php" afterDir="false" />
-    </list>
+    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +202,7 @@
       <workItem from="1669083421005" duration="958000" />
       <workItem from="1669280424475" duration="611000" />
       <workItem from="1669358597993" duration="4860000" />
-      <workItem from="1670839567354" duration="2125000" />
+      <workItem from="1670839567354" duration="2247000" />
     </task>
     <servers />
   </component>
