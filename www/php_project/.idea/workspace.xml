@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explode.php" beforeDir="false" afterPath="$PROJECT_DIR$/explode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produceSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/produceSql.php" afterDir="false" />
-    </list>
+    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code/php_project/denv/www/app_business_service",
+    "last_opened_file_path": "D:/code/php_project/denv",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -224,7 +220,7 @@
       <workItem from="1682414961002" duration="3354000" />
       <workItem from="1682425341767" duration="465000" />
       <workItem from="1682425822423" duration="146000" />
-      <workItem from="1682426207103" duration="3299000" />
+      <workItem from="1682426207103" duration="3728000" />
     </task>
     <servers />
   </component>
