@@ -305,8 +305,153 @@ function ResourceSubscribeIndex(){
 //ResourceSubscribeIndex();
 //delResourceSubscribeData();
 
-//获取更新sql
-function getSql(){
+function delSdkTable(){
+    $arr = [
+        "db_ex_app_calender" => [
+            "t_app_resources_of_product" => 100,
+            "t_app_subscribe" => 100
+        ],
+        "db_app_subscribe" => [
+            "t_phone_push_data" => 100,
+            "t_phone_subscribe_record" => 100,
+            "t_union_push_data" => 100,
+            "t_union_subscribe_record" => 100
+        ],
+        "db_ex_app_sdk" => [
+            "t_app_sdk" => 0,
+            "t_app_sdk_traffic" => 0,
+            "t_app_sdk_try" => 0
+        ],
+        "db_ex_application" => [
+            "t_app_apple_users" => 0,
+            "t_app_course_type_order" => 0,
+            "t_app_daily_report" => 0,
+            "t_app_display_resource" => 0,
+            "t_app_download_log" => 0,
+            "t_app_download_user_record" => 0,
+            "t_app_force_update_version" => 0,
+            "t_app_message_token" => 0,
+            "t_app_qq_users" => 0,
+            "t_app_remove_shop_phone" => 0,
+            "t_app_remove_shop_wechat" => 0,
+            "t_app_shop_all_count" => 0,
+            "t_app_source" => 0,
+            "t_app_token" => 0,
+            "t_app_top_course" => 0,
+            "t_app_untie_phone_log" => 0,
+            "t_app_users" => 0,
+            "t_app_uv_record_1" => 0,
+            "t_app_version" => 0,
+            "t_build_app" => 0,
+            "t_build_version" => 0,
+            "t_ex_user_device_info" => 0,
+        ]
+    ];
 
+    foreach($arr as $db=>$tables){
+        $str ='';
+        foreach ($tables as $tableName => $num){
+            if($num>0){
+                for($i=0;$i<$num;$i++){
+                    $str .= 'drop table '.$tableName.'_'.$i.'_gray_bak;
+';
+                }
+            }else{
+                $str .= 'drop table '.$tableName.'_gray_bak;
+';
+            }
+        }
+        file_put_contents('rename/删除app-sdk流量库-'.$db.'-del.sql',$str);
+    }
+
+
+//    for($i=1;$i<949;$i++){
+////        $date = date("Y_m_d",strtotime('-'.$i.' day'));
+//        $str .= 'drop table t_sdk_tiktok_data_usage_'.$i.'_gray_bak;
+//';
+//    }
+
+//    file_put_contents('删除app-sdk流量使用表.sql',$str);
 }
 
+
+//表改名
+function renameSdk(){
+    $arr = [
+        "db_ex_app_calender" => [
+            "t_app_resources_of_product" => 100,
+            "t_app_subscribe" => 100
+        ],
+        "db_app_subscribe" => [
+            "t_phone_push_data" => 100,
+            "t_phone_subscribe_record" => 100,
+            "t_union_push_data" => 100,
+            "t_union_subscribe_record" => 100
+        ],
+        "db_ex_app_sdk" => [
+            "t_app_sdk" => 0,
+            "t_app_sdk_traffic" => 0,
+            "t_app_sdk_try" => 0
+        ],
+        "db_ex_application" => [
+            "t_app_apple_users" => 0,
+            "t_app_course_type_order" => 0,
+            "t_app_daily_report" => 0,
+            "t_app_display_resource" => 0,
+            "t_app_download_log" => 0,
+            "t_app_download_user_record" => 0,
+            "t_app_force_update_version" => 0,
+            "t_app_message_token" => 0,
+            "t_app_qq_users" => 0,
+            "t_app_remove_shop_phone" => 0,
+            "t_app_remove_shop_wechat" => 0,
+            "t_app_shop_all_count" => 0,
+            "t_app_source" => 0,
+            "t_app_token" => 0,
+            "t_app_top_course" => 0,
+            "t_app_untie_phone_log" => 0,
+            "t_app_users" => 0,
+            "t_app_uv_record_1" => 0,
+            "t_app_version" => 0,
+            "t_build_app" => 0,
+            "t_build_version" => 0,
+            "t_ex_user_device_info" => 0,
+        ]
+    ];
+
+    foreach($arr as $db=>$tables){
+        $str = '';
+        foreach ($tables as $tableName => $num){
+            if($num>0){
+                for($i=0;$i<$num;$i++){
+                    $str .= 'rename table '.$tableName.'_'.$i.' to  '.$tableName.'_'.$i.'_gray_bak;
+';
+                }
+            }else{
+                $str .= 'rename table '.$tableName.' to  '.$tableName.'_gray_bak;
+';
+            }
+        }
+        file_put_contents('rename/app-sdk流量库-'.$db.'-rename.sql',$str);
+    }
+
+
+}
+//renameSdk();
+
+//delSdkTable();
+
+
+//新增字段
+function addIsAudit(){
+    $str = '';
+    for($i=0;$i<100;$i++){
+        $str .= '
+alter table t_app_buser_push_msg_'.$i.'
+	add ios_is_show tinyint default 0 not null comment \'消息是否展示在ios上 1：是 0：否\';
+';
+    }
+    file_put_contents('添加ios_is_show字段.sql',$str);
+}
+
+addIsAudit();

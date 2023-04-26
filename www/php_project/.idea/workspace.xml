@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="" />
+    <list default="true" id="7c781d69-3042-49be-baa4-7f49535bdc9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explode.php" beforeDir="false" afterPath="$PROJECT_DIR$/explode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produceSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/produceSql.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +35,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code/php_project/denv/www/php_project",
+    "last_opened_file_path": "D:/code/php_project/denv/www/app_business_service",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,14 +49,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\php_project\denv\www\php_project\rename" />
+      <recent name="D:\code\php_project\denv\www\php_project\fix_calender" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\php_project\denv\www\php_project\fix_calender" />
       <recent name="$PROJECT_DIR$/bitmap/BitMapCache" />
       <recent name="$PROJECT_DIR$/bitmap" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="JavaScript Debug.client.php">
     <configuration name="asyc_tcp.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/swoole_project/asyc_tcp.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -88,15 +96,6 @@
       <item itemvalue="PHP Script.server.php" />
       <item itemvalue="PHP Script.index.php" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.index.php" />
-        <item itemvalue="PHP Script.server.php" />
-        <item itemvalue="PHP Script.1.php" />
-        <item itemvalue="PHP Script.event.php" />
-        <item itemvalue="JavaScript Debug.asyc_tcp.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -203,6 +202,29 @@
       <workItem from="1669280424475" duration="611000" />
       <workItem from="1669358597993" duration="4860000" />
       <workItem from="1670839567354" duration="2247000" />
+      <workItem from="1670922241565" duration="1372000" />
+      <workItem from="1671270501822" duration="577000" />
+      <workItem from="1672127941461" duration="1224000" />
+      <workItem from="1672732329084" duration="661000" />
+      <workItem from="1672902683751" duration="5369000" />
+      <workItem from="1672990767086" duration="874000" />
+      <workItem from="1673236326655" duration="4000" />
+      <workItem from="1673418368829" duration="644000" />
+      <workItem from="1675141385566" duration="8555000" />
+      <workItem from="1675242320039" duration="2631000" />
+      <workItem from="1675736862256" duration="4106000" />
+      <workItem from="1675745622085" duration="4323000" />
+      <workItem from="1675927100785" duration="5718000" />
+      <workItem from="1676599728222" duration="1763000" />
+      <workItem from="1676705418701" duration="587000" />
+      <workItem from="1678153907409" duration="7109000" />
+      <workItem from="1678175419167" duration="126000" />
+      <workItem from="1678764375207" duration="955000" />
+      <workItem from="1681971530981" duration="967000" />
+      <workItem from="1682414961002" duration="3354000" />
+      <workItem from="1682425341767" duration="465000" />
+      <workItem from="1682425822423" duration="146000" />
+      <workItem from="1682426207103" duration="3299000" />
     </task>
     <servers />
   </component>
@@ -219,23 +241,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2522" y="259" key="NewPhpFileDialog" timestamp="1667963742954">
-      <screen x="1440" y="-375" width="2560" height="1440" />
-    </state>
-    <state x="2522" y="259" key="NewPhpFileDialog/0.25.1440.875/1440.-375.2560.1440@1440.-375.2560.1440" timestamp="1667963742954" />
-    <state width="625" height="500" key="SwitcherDM" timestamp="1669359638388">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="625" height="500" key="SwitcherDM/0.0.1440.900/1440.-350.2560.1415@0.0.1440.900" timestamp="1669359638388" />
-    <state x="445" y="243" width="789" height="564" key="find.popup" timestamp="1670837212863">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="445" y="243" width="789" height="564" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1670837212863" />
-    <state x="448" y="353" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1669359865294">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="448" y="353" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900/1440.-350.2560.1415@0.0.1440.900" timestamp="1669359865294" />
   </component>
 </project>
